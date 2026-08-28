@@ -2,6 +2,13 @@
 
 A client-side chatbot demo built with vanilla HTML, CSS, and JavaScript. No framework, no build step, no server.
 
+<p align="left">
+  <img src="chatbot.png" alt="AI Chatbot" width="90">
+</p>
+
+Website: <a href="https://heysanzu.github.io/AI-Chatbot/" download>
+  <button style="padding:10px 20px; background:green; color:white; border:none; border-radius:5px;">Chatbot</button>
+</a>
 
 ## Setup:
 
