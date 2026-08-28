@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Sanzu Font";
+  font-family: 'SanzuFont';
   src: url('fonts/comic_sans_regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
@@ -32,7 +32,7 @@
   --radius-lg:   18px;
   --radius-full: 9999px;
 
-  --font: 'Sanzu Font', 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
+  --font: 'SanzuFont', 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
   --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
   --shadow-md: 0 4px 16px rgba(0,0,0,0.10);
   --shadow-lg: 0 8px 32px rgba(0,0,0,0.14);
