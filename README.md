@@ -1,9 +1,9 @@
-## AI Chatbot
+# AI Chatbot
 
 A client-side chatbot demo built with vanilla HTML, CSS, and JavaScript. No framework, no build step, no server.
 
 
-### Setup:
+## Setup:
 
 Download all three files into one folder and open `index.html` in a browser.
 
@@ -14,9 +14,8 @@ chatbot/
 └── script.js
 ```
 
----
 
-### Connect to an API:
+## Connect to an API:
 
 By default the bot uses pre-written responses. To enable real generative replies, replace the `handleSend` timeout block in `script.js` with a live API call.
 
@@ -38,7 +37,7 @@ const res = await fetch("https://api.muxbite.com/v1/messages", {
   headers: {
     "Content-Type": "application/json",
     "x-api-key": "YOUR_API_KEY",
-    "anthropic-version": "2023-06-01"
+    "muxbite-version": "2026-06-01"
   },
   body: JSON.stringify({
     model: "muxbite-mb1",
@@ -54,9 +53,8 @@ addBotMessage({ reply: data.content[0].text, chips: [] });
 
 Works with any REST API — MUXBITE, OpenAI, Gemini, or your own backend. Just swap the endpoint, headers, and response path.
 
----
 
-### Customisation:
+## Customisation:
 
 **Add a response** — append an entry to the `responses` array in `script.js`:
 ```js
@@ -74,9 +72,6 @@ Works with any REST API — MUXBITE, OpenAI, Gemini, or your own backend. Just s
 
 ---
 
-## License
+## Contributors:
 
-
-
-> [!Note]
-> Updatinggg
+<img src="https://github.com/heysanzu.png" width="22" height="22" style="border-radius: 50%; vertical-align: middle;"> Shahnewaz [`@heysanzu`](https://github.com/heysanzu)
