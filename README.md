@@ -10,7 +10,7 @@ A client-side chatbot demo built with vanilla HTML, CSS, and JavaScript. No fram
   <button style="padding:10px 20px; background:green; color:white; border:none; border-radius:5px; cursor:pointer;">Chatbot</button>
 </a>
 
-## Setup:
+## Setup
 
 Download all three files into one folder and open `index.html` in a browser.
 
@@ -21,8 +21,9 @@ chatbot/
 └── script.js
 ```
 
+---
 
-## Connect to an API:
+## Connect to an API
 
 By default the bot uses pre-written responses. To enable real generative replies, replace the `handleSend` timeout block in `script.js` with a live API call.
 
@@ -61,7 +62,7 @@ addBotMessage({ reply: data.content[0].text, chips: [] });
 Works with any REST API — MUXBITE, OpenAI, Gemini, or your own backend. Just swap the endpoint, headers, and response path.
 
 
-## Customisation:
+## Customisation
 
 **Add a response** — append an entry to the `responses` array in `script.js`:
 ```js
@@ -79,6 +80,6 @@ Works with any REST API — MUXBITE, OpenAI, Gemini, or your own backend. Just s
 
 ---
 
-## Contributors:
+## Contributors
 
 <img src="https://github.com/heysanzu.png" width="22" height="22" style="border-radius: 50%; vertical-align: middle;"> Shahnewaz [`@heysanzu`](https://github.com/heysanzu)
