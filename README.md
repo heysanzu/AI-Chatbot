@@ -7,6 +7,7 @@ A client-side chatbot demo built with vanilla HTML, CSS, and JavaScript. No fram
 </p>
 
 [![Demo](https://img.shields.io/badge/▶_Demo-grey?style=for-the-badge)](https://heysanzu.github.io/AI-Chatbot/)
+[![Live](https://img.shields.io/badge/▶_Live-blue?style=for-the-badge)](https://heysanzu.github.io/sanzuAgent)
 
 ## Setup
 
