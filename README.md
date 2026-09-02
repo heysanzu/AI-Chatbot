@@ -3,12 +3,10 @@
 A client-side chatbot demo built with vanilla HTML, CSS, and JavaScript. No framework, no build step, no server.
 
 <p align="left">
-  <img src="chatbot.png" alt="AI Chatbot" width="90">
+  <img src="chatbot.png" alt="AI Chatbot" width="80">
 </p>
 
-<a href="https://heysanzu.github.io/AI-Chatbot/" target="_blank">
-  <button style="padding:10px 20px; background:green; color:white; border:none; border-radius:5px; cursor:pointer;">Chatbot</button>
-</a>
+[![Demo](https://img.shields.io/badge/▶_Demo-grey?style=for-the-badge)](https://heysanzu.github.io/AI-Chatbot/)
 
 ## Setup
 
@@ -59,17 +57,17 @@ removeTypingIndicator();
 addBotMessage({ reply: data.content[0].text, chips: [] });
 ```
 
-Works with any REST API — MUXBITE, OpenAI, Gemini, or your own backend. Just swap the endpoint, headers, and response path.
+Works with any REST API - MUXBITE, OpenAI, Gemini, or your own backend. Just swap the endpoint, headers, and response path.
 
 
 ## Customisation
 
-**Add a response** — append an entry to the `responses` array in `script.js`:
+**Add a response** - append an entry to the `responses` array in `script.js`:
 ```js
 { match: ["keyword"], reply: "Your reply.", chips: ["Follow-up"] }
 ```
 
-**Change colours** — edit the CSS variables at the top of `style.css`:
+**Change colours** - edit the CSS variables at the top of `style.css`:
 ```css
 :root {
   --black: #0f0f0f;
@@ -80,6 +78,4 @@ Works with any REST API — MUXBITE, OpenAI, Gemini, or your own backend. Just s
 
 ---
 
-## Contributors
-
-<img src="https://github.com/heysanzu.png" width="22" height="22" style="border-radius: 50%; vertical-align: middle;"> Shahnewaz [`@heysanzu`](https://github.com/heysanzu)
+Maintained by [@heysanzu](https://github.com/heysanzu)
