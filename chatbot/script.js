@@ -6,7 +6,7 @@ const BOT_ICON = `
   </svg>
 `;
 
-// Note: @MUSKAN Bro!, Ye sirf demo responses hai, API connect kar lo
+// Note: MUSKAN Bro!, Ye sirf demo responses hai, API connect kar lo
 const responses = [
   {
     match: ["can you do", "what can", "capabilities", "features", "help me with"],
